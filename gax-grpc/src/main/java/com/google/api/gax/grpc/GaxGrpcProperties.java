@@ -1,66 +1,1049 @@
-/*
- * Copyright 2017 Google LLC
- *
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted provided that the following conditions are
- * met:
- *
- *     * Redistributions of source code must retain the above copyright
- * notice, this list of conditions and the following disclaimer.
- *     * Redistributions in binary form must reproduce the above
- * copyright notice, this list of conditions and the following disclaimer
- * in the documentation and/or other materials provided with the
- * distribution.
- *     * Neither the name of Google LLC nor the names of its
- * contributors may be used to endorse or promote products derived from
- * this software without specific prior written permission.
- *
- * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
- * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
- * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
- * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
- * OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
- * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
- * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
- * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- */
-package com.google.api.gax.grpc;
+ {"app_name":"com.apple.WebKit.WebCo 08-30 23:22:32.82 -0400","app_version":"8607","slice_ 948c-3e2e-aa13- 86215d870dbb","build_version":"8607
+OS 12.4 (16G77)","incident_id":"71E4DC61- 3548-49DB-A9A1- D55B497486F6","name":"com.apple.Web
+Incident Identifier: 71E4DC61- 3548-49DB-A9A1-D55B497486F6 CrashReporter Key: 7b2444f26ec195445eda0f1315f0f7520f2
+Hardware Model: iPhone8,1 Process: com.apple.WebKit.WebContent [2245]
+Path: /System/Library/Frameworks/WebKit.f
+Identifier: com.apple.WebKit.WebContent
+Version:
+(8607)
+Code Type:
+(Native)
+Role:
+Parent Process:
+Coalition: com.apple.mobilesafari [777]
+Date/Time: 23:22:32.5219 -0400 Launch Time: 22:16:13.0119 -0400 OS Version:
+12.4 (16G77) Baseband Version: Report Version:
+Exception Type: EXC_CRASH (SIGKILL)
+Exception Codes: 0x0000000000000000, 0x0000000000000000
+Exception Note: EXC_CORPSE_NOTIFY
+Termination Reason: Namespace ASSERTIOND, Code 0xdead10cc Triggered by Thread: 0
+Thread 0 name: Dispatch queue: com.apple.main-thread
+Thread 0 Crashed:
+0 libsystem_kernel.dylib 0x000000022dcf093c 0x22dccc000 + 149820
+1 libdispatch.dylib 0x000000022db4fbf4 0x22db31000 + 125940
+2 libdispatch.dylib 0x000000022db4f118 0x22db31000 + 123160
+3 JavaScriptCore 0x0000000235364584 0x2352e9000 + 505220
+4 WebKit
+0x000000023d66f988 0x23d644000 + 178568
+5 WebKit
+0x000000023d953a38 0x23d644000 + 3209784
+6 WebKit
+0x000000023d9539a8 0x23d644000 + 3209640
+7 WebKit
+0x000000023d953b3c 0x23d644000 + 3210044
+8 WebKit
+0x000000023d953b94 0x23d644000 + 3210132
+9 WebKit
+0x000000023d953c34 0x23d644000 + 3210292
+10 WebKit
+0x000000023d97b2ec 0x23d644000 + 3371756
+11 WebKit
+0x000000023d9f2c6c 0x23d644000 + 3861612
+12 WebKit
+0x000000023d8d99f0 0x23d644000 + 2710000
+13 WebKit
+0x000000023d9521c8 0x23d644000 + 3203528
+14 WebKit
+0x000000023d947010 0x23d644000 + 3158032
+15 WebKit
+0x000000023d946f5c 0x23d644000 + 3157852
+16 WebKit
+0x000000023d9f4930 0x23d644000 + 3868976
+17 WebKit
+0x000000023d67de38 0x23d644000 + 237112
+18 WebKit
+0x000000023d947260 0x23d644000 + 3158624
+19 WebKit
+0x000000023d66e9a8 0x23d644000 + 174504
+20 WebKit
+0x000000023d672004 0x23d644000 + 188420
+21 JavaScriptCore 0x0000000235324688 0x2352e9000 + 243336
+22 JavaScriptCore 0x0000000235324908 0x2352e9000 + 243976
+23 CoreFoundation 0x000000022e0e4728 0x22e03a000 + 698152
+24 CoreFoundation 0x000000022e0e46a8 0x22e03a000 + 698024
+25 CoreFoundation 0x000000022e0e3f90 0x22e03a000 + 696208
+26 CoreFoundation 0x000000022e0deecc 0x22e03a000 + 675532
+27 CoreFoundation 0x000000022e0de7c0 0x22e03a000 + 673728
+28 Foundation 0x000000022eaaceac 0x22eaa5000 + 32428
+29 Foundation 0x000000022eae836c 0x22eaa5000 + 275308
+30 libxpc.dylib 0x000000022ddb1a44 0x22dd9e000 + 80452
+31 libxpc.dylib 0x000000022ddb43a4 0x22dd9e000 + 91044
+32 com.apple.WebKit.WebContent 0x000000010477b60c 0x104778000 + 13836
+33 com.apple.WebKit.WebContent 0x000000010477b7b8 0x104778000 + 14264
+34 libdyld.dylib 0x000000022dba28e0 0x22dba1000 + 6368
+Thread 1 name: JavaScriptCore bmalloc scavenger
+Thread 1:
+0 libsystem_kernel.dylib 0x000000022dceeee4 0x22dccc000 + 143076
+1 libsystem_pthread.dylib 0x000000022dd69cf8 0x22dd66000 + 15608
+2 libc++.1.dylib 0x000000022d2c5128 0x22d2bd000 + 33064
+3 JavaScriptCore 0x0000000235378304 0x2352e9000 + 586500
+4 JavaScriptCore 0x00000002353781b4 0x2352e9000 + 586164
+5 JavaScriptCore 0x0000000235376e4c 0x2352e9000 + 581196
+6 JavaScriptCore 0x000000023537654c 0x2352e9000 + 578892
+7 JavaScriptCore 0x0000000235377f8c 0x2352e9000 + 585612
+8 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+9 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+10 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 2 name: DFG Worklist Worker Thread
+Thread 2:
+0 libsystem_kernel.dylib 0x000000022dceeee4 0x22dccc000 + 143076
+1 libsystem_pthread.dylib 0x000000022dd69cf8 0x22dd66000 + 15608
+2 JavaScriptCore 0x00000002353398cc 0x2352e9000 + 329932
+3 JavaScriptCore 0x0000000235320514 0x2352e9000 + 226580
+4 JavaScriptCore 0x00000002352f4358 0x2352e9000 + 45912
+5 JavaScriptCore 0x00000002352f46e8 0x2352e9000 + 46824
+6 JavaScriptCore 0x0000000235337b30 0x2352e9000 + 322352
+7 JavaScriptCore 0x000000023533903c 0x2352e9000 + 327740
+8 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+9 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+10 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 3:
+0 libsystem_pthread.dylib 0x000000022dd74cd0 0x22dd66000 + 60624
+Thread 4:
+0 libsystem_pthread.dylib 0x000000022dd74cd0 0x22dd66000 + 60624
+Thread 5 name: Dispatch queue: com.apple.IPC.ReceiveQueue Thread 5:
+0 libsystem_kernel.dylib 0x000000022dce40f4 0x22dccc000 + 98548
+1 libsystem_kernel.dylib 0x000000022dce35a0 0x22dccc000 + 95648
+2 WebKit
+0x000000023d6dbcb8 0x23d644000 + 621752
+3 WebKit
+0x000000023d6dc050 0x23d644000 + 622672
+4 WebKit
+0x000000023d671954 0x23d644000 + 186708
+5 libdispatch.dylib 0x000000022db90a38 0x22db31000 + 391736
+6 libdispatch.dylib 0x000000022db917d4 0x22db31000 + 395220
+7 libdispatch.dylib 0x000000022db3a324 0x22db31000 + 37668
+8 libdispatch.dylib 0x000000022db3ae40 0x22db31000 + 40512
+9 libdispatch.dylib 0x000000022db434ac 0x22db31000 + 74924
+10 libsystem_pthread.dylib 0x000000022dd72114 0x22dd66000 + 49428
+11 libsystem_pthread.dylib 0x000000022dd74cd4 0x22dd66000 + 60628
+Thread 6 name: Heap Helper Thread
+Thread 6:
+0 libsystem_kernel.dylib 0x000000022dceeee4 0x22dccc000 + 143076
+1 libsystem_pthread.dylib 0x000000022dd69cf8 0x22dd66000 + 15608
+2 JavaScriptCore 0x00000002353398cc 0x2352e9000 + 329932
+3 JavaScriptCore 0x0000000235320514 0x2352e9000 + 226580
+4 JavaScriptCore 0x00000002352f4358 0x2352e9000 + 45912
+5 JavaScriptCore 0x00000002352f46e8 0x2352e9000 + 46824
+6 JavaScriptCore 0x0000000235337b30 0x2352e9000 + 322352
+7 JavaScriptCore 0x000000023533903c 0x2352e9000 + 327740
+8 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+9 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+10 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 7 name: WebCore: Database Thread 7:
+0 libsystem_kernel.dylib 0x000000022dcee1e4 0x22dccc000 + 139748
+1 libsystem_kernel.dylib 0x000000022dce79a8 0x22dccc000 + 113064
+2 libsqlite3.dylib 0x000000022e5b639c 0x22e548000 + 451484
+3 libsqlite3.dylib 0x000000022e5ce6cc 0x22e548000 + 550604
+4 libsqlite3.dylib 0x000000022e5be42c 0x22e548000 + 484396
+5 libsqlite3.dylib 0x000000022e5be150 0x22e548000 + 483664
+6 libsqlite3.dylib 0x000000022e5bdacc 0x22e548000 + 481996
+7 libsqlite3.dylib 0x000000022e5e2ae8 0x22e548000 + 633576
+8 libsqlite3.dylib 0x000000022e5eb6c0 0x22e548000 + 669376
+9 WebCore
+0x0000000237d18c7c 0x236a20000 + 19893372
+10 WebCore
+0x00000002373a1fd0 0x236a20000 + 9969616
+11 WebCore
+0x00000002373a1f3c 0x236a20000 + 9969468
+12 WebCore
+0x00000002373aaf68 0x236a20000 + 10006376
+13 JavaScriptCore 0x0000000235337b30 0x2352e9000 + 322352
+14 JavaScriptCore 0x000000023533903c 0x2352e9000 + 327740
+15 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+16 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+17 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 8:
+0 libsystem_kernel.dylib 0x000000022dce4148 0x22dccc000 + 98632
+1 libdispatch.dylib 0x000000022db33888 0x22db31000 + 10376
+2 libdispatch.dylib 0x000000022db341dc 0x22db31000 + 12764
+3 libdispatch.dylib 0x000000022db41df8 0x22db31000 + 69112
+4 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+5 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+6 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 9:
+0 libsystem_kernel.dylib 0x000000022dce4148 0x22dccc000 + 98632
+1 libdispatch.dylib 0x000000022db33888 0x22db31000 + 10376
+2 libdispatch.dylib 0x000000022db341dc 0x22db31000 + 12764
+3 libdispatch.dylib 0x000000022db41df8 0x22db31000 + 69112
+4 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+5 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+6 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 10:
+0 libsystem_pthread.dylib 0x000000022dd74cd0 0x22dd66000 + 60624
+Thread 11:
+0 libsystem_kernel.dylib 0x000000022dce4148 0x22dccc000 + 98632
+1 libdispatch.dylib 0x000000022db33888 0x22db31000 + 10376
+2 libdispatch.dylib 0x000000022db341dc 0x22db31000 + 12764
+3 libdispatch.dylib 0x000000022db41df8 0x22db31000 + 69112
+4 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+5 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+6 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 12 name: JSC Heap Collector Thread
+Thread 12:
+0 libsystem_kernel.dylib 0x000000022dceeee4 0x22dccc000 + 143076
+1 libsystem_pthread.dylib 0x000000022dd69cf8 0x22dd66000 + 15608
+2 JavaScriptCore 0x00000002353398cc 0x2352e9000 + 329932
+3 JavaScriptCore 0x0000000235320514 0x2352e9000 + 226580
+4 JavaScriptCore 0x00000002352f4358 0x2352e9000 + 45912
+5 JavaScriptCore 0x00000002352f46e8 0x2352e9000 + 46824
+6 JavaScriptCore 0x0000000235337b30 0x2352e9000 + 322352
+7 JavaScriptCore 0x000000023533903c 0x2352e9000 + 327740
+8 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+9 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+10 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 13 name: JIT Worklist Helper Thread
+Thread 13:
+0 libsystem_kernel.dylib 0x000000022dceeee4 0x22dccc000 + 143076
+1 libsystem_pthread.dylib 0x000000022dd69cf8 0x22dd66000 + 15608
+2 JavaScriptCore 0x00000002353398cc 0x2352e9000 + 329932
+3 JavaScriptCore 0x0000000235320514 0x2352e9000 + 226580
+4 JavaScriptCore 0x00000002352f4358 0x2352e9000 + 45912
+5 JavaScriptCore 0x00000002352f46e8 0x2352e9000 + 46824
+6 JavaScriptCore 0x0000000235337b30 0x2352e9000 + 322352
+7 JavaScriptCore 0x000000023533903c 0x2352e9000 + 327740
+8 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+9 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+10 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 0 crashed with ARM Thread State (64-bit):
+    x0: 0x0000000000000000   x1:
+0x0000000000000000   x2:
+0x0000000000000001   x3:
+0x000000016b686598
+    x4: 0x0000000000000001   x5:
+0x0000000000000000   x6:
+0x0000000000000000   x7:
+0x0000000000000403
+    x8: 0x0000000000000400   x9:
+0x00000002678a0a40  x10:
+0x0000000000000400  x11:
+0x0000003700000001
+   x12: 0x0000000000000005  x13:
+0x0000003700000001  x14:
+0x0000000000000100  x15:
+0x0000000000000100
+   x16: 0x0000000000000177  x17:
+0x000000022db4f020  x18:
+0x0000000000000000  x19:
+0x0000000000000403
+   x20: 0x0000000000000000  x21:
+0x0000000000000000  x22:
+0x0000000000000001  x23:
+0x000000016b686598
+   x24: 0x0000000000000001  x25:
+0x000000016b686598  x26:
+0x0000000155e0e700  x27:
+0x00000002678a0a40
+   x28: 0x0000000000020400   fp:
+0x000000016b686580   lr:
+0x000000022db4fbf4
+    sp: 0x000000016b686520   pc:
+0x000000022dcf093c cpsr:
+0x00000000
+Binary Images:
+0x104778000 - 0x10477bfff com.apple.WebKit.WebContent arm64 <ba35778e948c3e2eaa1386215d870dbb>
+/System/Library/Frameworks/WebKit.f
+0x10487c000 - 0x104887fff Safari arm64 <97ca6c98ccaf3aeda369f2f945e439b5>
+/Applications/MobileSafari.app/Plug
+0x1049c8000 - 0x104a1ffff dyld arm64 <06f3d9add3a233cea57df42b73686817>
+/usr/lib/dyld
+0x22d2bb000 - 0x22d2bcfff libSystem.B.dylib arm64 <8a05d5f48f0a376abe6bd1caf4fc8138>
+/usr/lib/libSystem.B.dylib 0x22d2bd000 - 0x22d312fff libc++.1.dylib arm64 <6a272068f00d37a984e331ba58e1c3c4>
+/usr/lib/libc++.1.dylib 0x22d313000 - 0x22d325fff libc++abi.dylib arm64 <d4920e50788d3be6bccf8f550bc6d491>
+/usr/lib/libc++abi.dylib 0x22d326000 - 0x22daadfff libobjc.A.dylib arm64 <1167a03d9f853f34a96fd96818ad77b5>
+8607.3.9
+ARM-64
+2019-08-30
+2019-08-30
+iPhone OS
+5.70.01 104
+Unspecified
+launchd [1]
 
-import com.google.api.core.InternalApi;
-import com.google.api.gax.core.GaxProperties;
-import io.grpc.Channel;
-import java.util.regex.Pattern;
+  ●
+                  
+ {"app_name":"com.apple.WebKit.WebCo 08-30 23:22:32.82 -0400","app_version":"8607","slice_ 948c-3e2e-aa13- 86215d870dbb","build_version":"8607
+OS 12.4 (16G77)","incident_id":"71E4DC61- 3548-49DB-A9A1- D55B497486F6","name":"com.apple.Web
+Incident Identifier: 71E4DC61- 3548-49DB-A9A1-D55B497486F6 CrashReporter Key: 7b2444f26ec195445eda0f1315f0f7520f2
+Hardware Model: iPhone8,1 Process: com.apple.WebKit.WebContent [2245]
+Path: /System/Library/Frameworks/WebKit.f
+Identifier: com.apple.WebKit.WebContent
+Version:
+(8607)
+Code Type:
+(Native)
+Role:
+Parent Process:
+Coalition: com.apple.mobilesafari [777]
+Date/Time: 23:22:32.5219 -0400 Launch Time: 22:16:13.0119 -0400 OS Version:
+12.4 (16G77) Baseband Version: Report Version:
+Exception Type: EXC_CRASH (SIGKILL)
+Exception Codes: 0x0000000000000000, 0x0000000000000000
+Exception Note: EXC_CORPSE_NOTIFY
+Termination Reason: Namespace ASSERTIOND, Code 0xdead10cc Triggered by Thread: 0
+Thread 0 name: Dispatch queue: com.apple.main-thread
+Thread 0 Crashed:
+0 libsystem_kernel.dylib 0x000000022dcf093c 0x22dccc000 + 149820
+1 libdispatch.dylib 0x000000022db4fbf4 0x22db31000 + 125940
+2 libdispatch.dylib 0x000000022db4f118 0x22db31000 + 123160
+3 JavaScriptCore 0x0000000235364584 0x2352e9000 + 505220
+4 WebKit
+0x000000023d66f988 0x23d644000 + 178568
+5 WebKit
+0x000000023d953a38 0x23d644000 + 3209784
+6 WebKit
+0x000000023d9539a8 0x23d644000 + 3209640
+7 WebKit
+0x000000023d953b3c 0x23d644000 + 3210044
+8 WebKit
+0x000000023d953b94 0x23d644000 + 3210132
+9 WebKit
+0x000000023d953c34 0x23d644000 + 3210292
+10 WebKit
+0x000000023d97b2ec 0x23d644000 + 3371756
+11 WebKit
+0x000000023d9f2c6c 0x23d644000 + 3861612
+12 WebKit
+0x000000023d8d99f0 0x23d644000 + 2710000
+13 WebKit
+0x000000023d9521c8 0x23d644000 + 3203528
+14 WebKit
+0x000000023d947010 0x23d644000 + 3158032
+15 WebKit
+0x000000023d946f5c 0x23d644000 + 3157852
+16 WebKit
+0x000000023d9f4930 0x23d644000 + 3868976
+17 WebKit
+0x000000023d67de38 0x23d644000 + 237112
+18 WebKit
+0x000000023d947260 0x23d644000 + 3158624
+19 WebKit
+0x000000023d66e9a8 0x23d644000 + 174504
+20 WebKit
+0x000000023d672004 0x23d644000 + 188420
+21 JavaScriptCore 0x0000000235324688 0x2352e9000 + 243336
+22 JavaScriptCore 0x0000000235324908 0x2352e9000 + 243976
+23 CoreFoundation 0x000000022e0e4728 0x22e03a000 + 698152
+24 CoreFoundation 0x000000022e0e46a8 0x22e03a000 + 698024
+25 CoreFoundation 0x000000022e0e3f90 0x22e03a000 + 696208
+26 CoreFoundation 0x000000022e0deecc 0x22e03a000 + 675532
+27 CoreFoundation 0x000000022e0de7c0 0x22e03a000 + 673728
+28 Foundation 0x000000022eaaceac 0x22eaa5000 + 32428
+29 Foundation 0x000000022eae836c 0x22eaa5000 + 275308
+30 libxpc.dylib 0x000000022ddb1a44 0x22dd9e000 + 80452
+31 libxpc.dylib 0x000000022ddb43a4 0x22dd9e000 + 91044
+32 com.apple.WebKit.WebContent 0x000000010477b60c 0x104778000 + 13836
+33 com.apple.WebKit.WebContent 0x000000010477b7b8 0x104778000 + 14264
+34 libdyld.dylib 0x000000022dba28e0 0x22dba1000 + 6368
+Thread 1 name: JavaScriptCore bmalloc scavenger
+Thread 1:
+0 libsystem_kernel.dylib 0x000000022dceeee4 0x22dccc000 + 143076
+1 libsystem_pthread.dylib 0x000000022dd69cf8 0x22dd66000 + 15608
+2 libc++.1.dylib 0x000000022d2c5128 0x22d2bd000 + 33064
+3 JavaScriptCore 0x0000000235378304 0x2352e9000 + 586500
+4 JavaScriptCore 0x00000002353781b4 0x2352e9000 + 586164
+5 JavaScriptCore 0x0000000235376e4c 0x2352e9000 + 581196
+6 JavaScriptCore 0x000000023537654c 0x2352e9000 + 578892
+7 JavaScriptCore 0x0000000235377f8c 0x2352e9000 + 585612
+8 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+9 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+10 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 2 name: DFG Worklist Worker Thread
+Thread 2:
+0 libsystem_kernel.dylib 0x000000022dceeee4 0x22dccc000 + 143076
+1 libsystem_pthread.dylib 0x000000022dd69cf8 0x22dd66000 + 15608
+2 JavaScriptCore 0x00000002353398cc 0x2352e9000 + 329932
+3 JavaScriptCore 0x0000000235320514 0x2352e9000 + 226580
+4 JavaScriptCore 0x00000002352f4358 0x2352e9000 + 45912
+5 JavaScriptCore 0x00000002352f46e8 0x2352e9000 + 46824
+6 JavaScriptCore 0x0000000235337b30 0x2352e9000 + 322352
+7 JavaScriptCore 0x000000023533903c 0x2352e9000 + 327740
+8 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+9 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+10 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 3:
+0 libsystem_pthread.dylib 0x000000022dd74cd0 0x22dd66000 + 60624
+Thread 4:
+0 libsystem_pthread.dylib 0x000000022dd74cd0 0x22dd66000 + 60624
+Thread 5 name: Dispatch queue: com.apple.IPC.ReceiveQueue Thread 5:
+0 libsystem_kernel.dylib 0x000000022dce40f4 0x22dccc000 + 98548
+1 libsystem_kernel.dylib 0x000000022dce35a0 0x22dccc000 + 95648
+2 WebKit
+0x000000023d6dbcb8 0x23d644000 + 621752
+3 WebKit
+0x000000023d6dc050 0x23d644000 + 622672
+4 WebKit
+0x000000023d671954 0x23d644000 + 186708
+5 libdispatch.dylib 0x000000022db90a38 0x22db31000 + 391736
+6 libdispatch.dylib 0x000000022db917d4 0x22db31000 + 395220
+7 libdispatch.dylib 0x000000022db3a324 0x22db31000 + 37668
+8 libdispatch.dylib 0x000000022db3ae40 0x22db31000 + 40512
+9 libdispatch.dylib 0x000000022db434ac 0x22db31000 + 74924
+10 libsystem_pthread.dylib 0x000000022dd72114 0x22dd66000 + 49428
+11 libsystem_pthread.dylib 0x000000022dd74cd4 0x22dd66000 + 60628
+Thread 6 name: Heap Helper Thread
+Thread 6:
+0 libsystem_kernel.dylib 0x000000022dceeee4 0x22dccc000 + 143076
+1 libsystem_pthread.dylib 0x000000022dd69cf8 0x22dd66000 + 15608
+2 JavaScriptCore 0x00000002353398cc 0x2352e9000 + 329932
+3 JavaScriptCore 0x0000000235320514 0x2352e9000 + 226580
+4 JavaScriptCore 0x00000002352f4358 0x2352e9000 + 45912
+5 JavaScriptCore 0x00000002352f46e8 0x2352e9000 + 46824
+6 JavaScriptCore 0x0000000235337b30 0x2352e9000 + 322352
+7 JavaScriptCore 0x000000023533903c 0x2352e9000 + 327740
+8 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+9 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+10 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 7 name: WebCore: Database Thread 7:
+0 libsystem_kernel.dylib 0x000000022dcee1e4 0x22dccc000 + 139748
+1 libsystem_kernel.dylib 0x000000022dce79a8 0x22dccc000 + 113064
+2 libsqlite3.dylib 0x000000022e5b639c 0x22e548000 + 451484
+3 libsqlite3.dylib 0x000000022e5ce6cc 0x22e548000 + 550604
+4 libsqlite3.dylib 0x000000022e5be42c 0x22e548000 + 484396
+5 libsqlite3.dylib 0x000000022e5be150 0x22e548000 + 483664
+6 libsqlite3.dylib 0x000000022e5bdacc 0x22e548000 + 481996
+7 libsqlite3.dylib 0x000000022e5e2ae8 0x22e548000 + 633576
+8 libsqlite3.dylib 0x000000022e5eb6c0 0x22e548000 + 669376
+9 WebCore
+0x0000000237d18c7c 0x236a20000 + 19893372
+10 WebCore
+0x00000002373a1fd0 0x236a20000 + 9969616
+11 WebCore
+0x00000002373a1f3c 0x236a20000 + 9969468
+12 WebCore
+0x00000002373aaf68 0x236a20000 + 10006376
+13 JavaScriptCore 0x0000000235337b30 0x2352e9000 + 322352
+14 JavaScriptCore 0x000000023533903c 0x2352e9000 + 327740
+15 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+16 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+17 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 8:
+0 libsystem_kernel.dylib 0x000000022dce4148 0x22dccc000 + 98632
+1 libdispatch.dylib 0x000000022db33888 0x22db31000 + 10376
+2 libdispatch.dylib 0x000000022db341dc 0x22db31000 + 12764
+3 libdispatch.dylib 0x000000022db41df8 0x22db31000 + 69112
+4 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+5 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+6 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 9:
+0 libsystem_kernel.dylib 0x000000022dce4148 0x22dccc000 + 98632
+1 libdispatch.dylib 0x000000022db33888 0x22db31000 + 10376
+2 libdispatch.dylib 0x000000022db341dc 0x22db31000 + 12764
+3 libdispatch.dylib 0x000000022db41df8 0x22db31000 + 69112
+4 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+5 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+6 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 10:
+0 libsystem_pthread.dylib 0x000000022dd74cd0 0x22dd66000 + 60624
+Thread 11:
+0 libsystem_kernel.dylib 0x000000022dce4148 0x22dccc000 + 98632
+1 libdispatch.dylib 0x000000022db33888 0x22db31000 + 10376
+2 libdispatch.dylib 0x000000022db341dc 0x22db31000 + 12764
+3 libdispatch.dylib 0x000000022db41df8 0x22db31000 + 69112
+4 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+5 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+6 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 12 name: JSC Heap Collector Thread
+Thread 12:
+0 libsystem_kernel.dylib 0x000000022dceeee4 0x22dccc000 + 143076
+1 libsystem_pthread.dylib 0x000000022dd69cf8 0x22dd66000 + 15608
+2 JavaScriptCore 0x00000002353398cc 0x2352e9000 + 329932
+3 JavaScriptCore 0x0000000235320514 0x2352e9000 + 226580
+4 JavaScriptCore 0x00000002352f4358 0x2352e9000 + 45912
+5 JavaScriptCore 0x00000002352f46e8 0x2352e9000 + 46824
+6 JavaScriptCore 0x0000000235337b30 0x2352e9000 + 322352
+7 JavaScriptCore 0x000000023533903c 0x2352e9000 + 327740
+8 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+9 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+10 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 13 name: JIT Worklist Helper Thread
+Thread 13:
+0 libsystem_kernel.dylib 0x000000022dceeee4 0x22dccc000 + 143076
+1 libsystem_pthread.dylib 0x000000022dd69cf8 0x22dd66000 + 15608
+2 JavaScriptCore 0x00000002353398cc 0x2352e9000 + 329932
+3 JavaScriptCore 0x0000000235320514 0x2352e9000 + 226580
+4 JavaScriptCore 0x00000002352f4358 0x2352e9000 + 45912
+5 JavaScriptCore 0x00000002352f46e8 0x2352e9000 + 46824
+6 JavaScriptCore 0x0000000235337b30 0x2352e9000 + 322352
+7 JavaScriptCore 0x000000023533903c 0x2352e9000 + 327740
+8 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+9 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+10 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 0 crashed with ARM Thread State (64-bit):
+    x0: 0x0000000000000000   x1:
+0x0000000000000000   x2:
+0x0000000000000001   x3:
+0x000000016b686598
+    x4: 0x0000000000000001   x5:
+0x0000000000000000   x6:
+0x0000000000000000   x7:
+0x0000000000000403
+    x8: 0x0000000000000400   x9:
+0x00000002678a0a40  x10:
+0x0000000000000400  x11:
+0x0000003700000001
+   x12: 0x0000000000000005  x13:
+0x0000003700000001  x14:
+0x0000000000000100  x15:
+0x0000000000000100
+   x16: 0x0000000000000177  x17:
+0x000000022db4f020  x18:
+0x0000000000000000  x19:
+0x0000000000000403
+   x20: 0x0000000000000000  x21:
+0x0000000000000000  x22:
+0x0000000000000001  x23:
+0x000000016b686598
+   x24: 0x0000000000000001  x25:
+0x000000016b686598  x26:
+0x0000000155e0e700  x27:
+0x00000002678a0a40
+   x28: 0x0000000000020400   fp:
+0x000000016b686580   lr:
+0x000000022db4fbf4
+    sp: 0x000000016b686520   pc:
+0x000000022dcf093c cpsr:
+0x00000000
+Binary Images:
+0x104778000 - 0x10477bfff com.apple.WebKit.WebContent arm64 <ba35778e948c3e2eaa1386215d870dbb>
+/System/Library/Frameworks/WebKit.f
+0x10487c000 - 0x104887fff Safari arm64 <97ca6c98ccaf3aeda369f2f945e439b5>
+/Applications/MobileSafari.app/Plug
+0x1049c8000 - 0x104a1ffff dyld arm64 <06f3d9add3a233cea57df42b73686817>
+/usr/lib/dyld
+0x22d2bb000 - 0x22d2bcfff libSystem.B.dylib arm64 <8a05d5f48f0a376abe6bd1caf4fc8138>
+/usr/lib/libSystem.B.dylib 0x22d2bd000 - 0x22d312fff libc++.1.dylib arm64 <6a272068f00d37a984e331ba58e1c3c4>
+/usr/lib/libc++.1.dylib 0x22d313000 - 0x22d325fff libc++abi.dylib arm64 <d4920e50788d3be6bccf8f550bc6d491>
+/usr/lib/libc++abi.dylib 0x22d326000 - 0x22daadfff libobjc.A.dylib arm64 <1167a03d9f853f34a96fd96818ad77b5>
+8607.3.9
+ARM-64
+2019-08-30
+2019-08-30
+iPhone OS
+5.70.01 104
+Unspecified
+launchd [1]
 
-/** Provides properties of the GAX-GRPC library. */
-@InternalApi
-public class GaxGrpcProperties {
-  private static final String GAX_GRPC_VERSION =
-      GaxProperties.getLibraryVersion(GaxGrpcProperties.class, "version.gax_grpc");
-  private static final String GRPC_VERSION =
-      GaxProperties.getLibraryVersion(Channel.class, "version.io_grpc");
-  private static final Pattern DEFAULT_API_CLIENT_HEADER_PATTERN =
-      Pattern.compile("gl-java/.+ gapic/.* gax/.+ grpc/.+");
+ {"app_name":"com.apple.WebKit.WebCo 08-30 23:22:32.82 -0400","app_version":"8607","slice_ 948c-3e2e-aa13- 86215d870dbb","build_version":"8607
+OS 12.4 (16G77)","incident_id":"71E4DC61- 3548-49DB-A9A1- D55B497486F6","name":"com.apple.Web
+Incident Identifier: 71E4DC61- 3548-49DB-A9A1-D55B497486F6 CrashReporter Key: 7b2444f26ec195445eda0f1315f0f7520f2
+Hardware Model: iPhone8,1 Process: com.apple.WebKit.WebContent [2245]
+Path: /System/Library/Frameworks/WebKit.f
+Identifier: com.apple.WebKit.WebContent
+Version:
+(8607)
+Code Type:
+(Native)
+Role:
+Parent Process:
+Coalition: com.apple.mobilesafari [777]
+Date/Time: 23:22:32.5219 -0400 Launch Time: 22:16:13.0119 -0400 OS Version:
+12.4 (16G77) Baseband Version: Report Version:
+Exception Type: EXC_CRASH (SIGKILL)
+Exception Codes: 0x0000000000000000, 0x0000000000000000
+Exception Note: EXC_CORPSE_NOTIFY
+Termination Reason: Namespace ASSERTIOND, Code 0xdead10cc Triggered by Thread: 0
+Thread 0 name: Dispatch queue: com.apple.main-thread
+Thread 0 Crashed:
+0 libsystem_kernel.dylib 0x000000022dcf093c 0x22dccc000 + 149820
+1 libdispatch.dylib 0x000000022db4fbf4 0x22db31000 + 125940
+2 libdispatch.dylib 0x000000022db4f118 0x22db31000 + 123160
+3 JavaScriptCore 0x0000000235364584 0x2352e9000 + 505220
+4 WebKit
+0x000000023d66f988 0x23d644000 + 178568
+5 WebKit
+0x000000023d953a38 0x23d644000 + 3209784
+6 WebKit
+0x000000023d9539a8 0x23d644000 + 3209640
+7 WebKit
+0x000000023d953b3c 0x23d644000 + 3210044
+8 WebKit
+0x000000023d953b94 0x23d644000 + 3210132
+9 WebKit
+0x000000023d953c34 0x23d644000 + 3210292
+10 WebKit
+0x000000023d97b2ec 0x23d644000 + 3371756
+11 WebKit
+0x000000023d9f2c6c 0x23d644000 + 3861612
+12 WebKit
+0x000000023d8d99f0 0x23d644000 + 2710000
+13 WebKit
+0x000000023d9521c8 0x23d644000 + 3203528
+14 WebKit
+0x000000023d947010 0x23d644000 + 3158032
+15 WebKit
+0x000000023d946f5c 0x23d644000 + 3157852
+16 WebKit
+0x000000023d9f4930 0x23d644000 + 3868976
+17 WebKit
+0x000000023d67de38 0x23d644000 + 237112
+18 WebKit
+0x000000023d947260 0x23d644000 + 3158624
+19 WebKit
+0x000000023d66e9a8 0x23d644000 + 174504
+20 WebKit
+0x000000023d672004 0x23d644000 + 188420
+21 JavaScriptCore 0x0000000235324688 0x2352e9000 + 243336
+22 JavaScriptCore 0x0000000235324908 0x2352e9000 + 243976
+23 CoreFoundation 0x000000022e0e4728 0x22e03a000 + 698152
+24 CoreFoundation 0x000000022e0e46a8 0x22e03a000 + 698024
+25 CoreFoundation 0x000000022e0e3f90 0x22e03a000 + 696208
+26 CoreFoundation 0x000000022e0deecc 0x22e03a000 + 675532
+27 CoreFoundation 0x000000022e0de7c0 0x22e03a000 + 673728
+28 Foundation 0x000000022eaaceac 0x22eaa5000 + 32428
+29 Foundation 0x000000022eae836c 0x22eaa5000 + 275308
+30 libxpc.dylib 0x000000022ddb1a44 0x22dd9e000 + 80452
+31 libxpc.dylib 0x000000022ddb43a4 0x22dd9e000 + 91044
+32 com.apple.WebKit.WebContent 0x000000010477b60c 0x104778000 + 13836
+33 com.apple.WebKit.WebContent 0x000000010477b7b8 0x104778000 + 14264
+34 libdyld.dylib 0x000000022dba28e0 0x22dba1000 + 6368
+Thread 1 name: JavaScriptCore bmalloc scavenger
+Thread 1:
+0 libsystem_kernel.dylib 0x000000022dceeee4 0x22dccc000 + 143076
+1 libsystem_pthread.dylib 0x000000022dd69cf8 0x22dd66000 + 15608
+2 libc++.1.dylib 0x000000022d2c5128 0x22d2bd000 + 33064
+3 JavaScriptCore 0x0000000235378304 0x2352e9000 + 586500
+4 JavaScriptCore 0x00000002353781b4 0x2352e9000 + 586164
+5 JavaScriptCore 0x0000000235376e4c 0x2352e9000 + 581196
+6 JavaScriptCore 0x000000023537654c 0x2352e9000 + 578892
+7 JavaScriptCore 0x0000000235377f8c 0x2352e9000 + 585612
+8 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+9 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+10 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 2 name: DFG Worklist Worker Thread
+Thread 2:
+0 libsystem_kernel.dylib 0x000000022dceeee4 0x22dccc000 + 143076
+1 libsystem_pthread.dylib 0x000000022dd69cf8 0x22dd66000 + 15608
+2 JavaScriptCore 0x00000002353398cc 0x2352e9000 + 329932
+3 JavaScriptCore 0x0000000235320514 0x2352e9000 + 226580
+4 JavaScriptCore 0x00000002352f4358 0x2352e9000 + 45912
+5 JavaScriptCore 0x00000002352f46e8 0x2352e9000 + 46824
+6 JavaScriptCore 0x0000000235337b30 0x2352e9000 + 322352
+7 JavaScriptCore 0x000000023533903c 0x2352e9000 + 327740
+8 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+9 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+10 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 3:
+0 libsystem_pthread.dylib 0x000000022dd74cd0 0x22dd66000 + 60624
+Thread 4:
+0 libsystem_pthread.dylib 0x000000022dd74cd0 0x22dd66000 + 60624
+Thread 5 name: Dispatch queue: com.apple.IPC.ReceiveQueue Thread 5:
+0 libsystem_kernel.dylib 0x000000022dce40f4 0x22dccc000 + 98548
+1 libsystem_kernel.dylib 0x000000022dce35a0 0x22dccc000 + 95648
+2 WebKit
+0x000000023d6dbcb8 0x23d644000 + 621752
+3 WebKit
+0x000000023d6dc050 0x23d644000 + 622672
+4 WebKit
+0x000000023d671954 0x23d644000 + 186708
+5 libdispatch.dylib 0x000000022db90a38 0x22db31000 + 391736
+6 libdispatch.dylib 0x000000022db917d4 0x22db31000 + 395220
+7 libdispatch.dylib 0x000000022db3a324 0x22db31000 + 37668
+8 libdispatch.dylib 0x000000022db3ae40 0x22db31000 + 40512
+9 libdispatch.dylib 0x000000022db434ac 0x22db31000 + 74924
+10 libsystem_pthread.dylib 0x000000022dd72114 0x22dd66000 + 49428
+11 libsystem_pthread.dylib 0x000000022dd74cd4 0x22dd66000 + 60628
+Thread 6 name: Heap Helper Thread
+Thread 6:
+0 libsystem_kernel.dylib 0x000000022dceeee4 0x22dccc000 + 143076
+1 libsystem_pthread.dylib 0x000000022dd69cf8 0x22dd66000 + 15608
+2 JavaScriptCore 0x00000002353398cc 0x2352e9000 + 329932
+3 JavaScriptCore 0x0000000235320514 0x2352e9000 + 226580
+4 JavaScriptCore 0x00000002352f4358 0x2352e9000 + 45912
+5 JavaScriptCore 0x00000002352f46e8 0x2352e9000 + 46824
+6 JavaScriptCore 0x0000000235337b30 0x2352e9000 + 322352
+7 JavaScriptCore 0x000000023533903c 0x2352e9000 + 327740
+8 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+9 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+10 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 7 name: WebCore: Database Thread 7:
+0 libsystem_kernel.dylib 0x000000022dcee1e4 0x22dccc000 + 139748
+1 libsystem_kernel.dylib 0x000000022dce79a8 0x22dccc000 + 113064
+2 libsqlite3.dylib 0x000000022e5b639c 0x22e548000 + 451484
+3 libsqlite3.dylib 0x000000022e5ce6cc 0x22e548000 + 550604
+4 libsqlite3.dylib 0x000000022e5be42c 0x22e548000 + 484396
+5 libsqlite3.dylib 0x000000022e5be150 0x22e548000 + 483664
+6 libsqlite3.dylib 0x000000022e5bdacc 0x22e548000 + 481996
+7 libsqlite3.dylib 0x000000022e5e2ae8 0x22e548000 + 633576
+8 libsqlite3.dylib 0x000000022e5eb6c0 0x22e548000 + 669376
+9 WebCore
+0x0000000237d18c7c 0x236a20000 + 19893372
+10 WebCore
+0x00000002373a1fd0 0x236a20000 + 9969616
+11 WebCore
+0x00000002373a1f3c 0x236a20000 + 9969468
+12 WebCore
+0x00000002373aaf68 0x236a20000 + 10006376
+13 JavaScriptCore 0x0000000235337b30 0x2352e9000 + 322352
+14 JavaScriptCore 0x000000023533903c 0x2352e9000 + 327740
+15 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+16 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+17 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 8:
+0 libsystem_kernel.dylib 0x000000022dce4148 0x22dccc000 + 98632
+1 libdispatch.dylib 0x000000022db33888 0x22db31000 + 10376
+2 libdispatch.dylib 0x000000022db341dc 0x22db31000 + 12764
+3 libdispatch.dylib 0x000000022db41df8 0x22db31000 + 69112
+4 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+5 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+6 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 9:
+0 libsystem_kernel.dylib 0x000000022dce4148 0x22dccc000 + 98632
+1 libdispatch.dylib 0x000000022db33888 0x22db31000 + 10376
+2 libdispatch.dylib 0x000000022db341dc 0x22db31000 + 12764
+3 libdispatch.dylib 0x000000022db41df8 0x22db31000 + 69112
+4 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+5 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+6 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 10:
+0 libsystem_pthread.dylib 0x000000022dd74cd0 0x22dd66000 + 60624
+Thread 11:
+0 libsystem_kernel.dylib 0x000000022dce4148 0x22dccc000 + 98632
+1 libdispatch.dylib 0x000000022db33888 0x22db31000 + 10376
+2 libdispatch.dylib 0x000000022db341dc 0x22db31000 + 12764
+3 libdispatch.dylib 0x000000022db41df8 0x22db31000 + 69112
+4 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+5 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+6 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 12 name: JSC Heap Collector Thread
+Thread 12:
+0 libsystem_kernel.dylib 0x000000022dceeee4 0x22dccc000 + 143076
+1 libsystem_pthread.dylib 0x000000022dd69cf8 0x22dd66000 + 15608
+2 JavaScriptCore 0x00000002353398cc 0x2352e9000 + 329932
+3 JavaScriptCore 0x0000000235320514 0x2352e9000 + 226580
+4 JavaScriptCore 0x00000002352f4358 0x2352e9000 + 45912
+5 JavaScriptCore 0x00000002352f46e8 0x2352e9000 + 46824
+6 JavaScriptCore 0x0000000235337b30 0x2352e9000 + 322352
+7 JavaScriptCore 0x000000023533903c 0x2352e9000 + 327740
+8 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+9 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+10 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 13 name: JIT Worklist Helper Thread
+Thread 13:
+0 libsystem_kernel.dylib 0x000000022dceeee4 0x22dccc000 + 143076
+1 libsystem_pthread.dylib 0x000000022dd69cf8 0x22dd66000 + 15608
+2 JavaScriptCore 0x00000002353398cc 0x2352e9000 + 329932
+3 JavaScriptCore 0x0000000235320514 0x2352e9000 + 226580
+4 JavaScriptCore 0x00000002352f4358 0x2352e9000 + 45912
+5 JavaScriptCore 0x00000002352f46e8 0x2352e9000 + 46824
+6 JavaScriptCore 0x0000000235337b30 0x2352e9000 + 322352
+7 JavaScriptCore 0x000000023533903c 0x2352e9000 + 327740
+8 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+9 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+10 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 0 crashed with ARM Thread State (64-bit):
+    x0: 0x0000000000000000   x1:
+0x0000000000000000   x2:
+0x0000000000000001   x3:
+0x000000016b686598
+    x4: 0x0000000000000001   x5:
+0x0000000000000000   x6:
+0x0000000000000000   x7:
+0x0000000000000403
+    x8: 0x0000000000000400   x9:
+0x00000002678a0a40  x10:
+0x0000000000000400  x11:
+0x0000003700000001
+   x12: 0x0000000000000005  x13:
+0x0000003700000001  x14:
+0x0000000000000100  x15:
+0x0000000000000100
+   x16: 0x0000000000000177  x17:
+0x000000022db4f020  x18:
+0x0000000000000000  x19:
+0x0000000000000403
+   x20: 0x0000000000000000  x21:
+0x0000000000000000  x22:
+0x0000000000000001  x23:
+0x000000016b686598
+   x24: 0x0000000000000001  x25:
+0x000000016b686598  x26:
+0x0000000155e0e700  x27:
+0x00000002678a0a40
+   x28: 0x0000000000020400   fp:
+0x000000016b686580   lr:
+0x000000022db4fbf4
+    sp: 0x000000016b686520   pc:
+0x000000022dcf093c cpsr:
+0x00000000
+Binary Images:
+0x104778000 - 0x10477bfff com.apple.WebKit.WebContent arm64 <ba35778e948c3e2eaa1386215d870dbb>
+/System/Library/Frameworks/WebKit.f
+0x10487c000 - 0x104887fff Safari arm64 <97ca6c98ccaf3aeda369f2f945e439b5>
+/Applications/MobileSafari.app/Plug
+0x1049c8000 - 0x104a1ffff dyld arm64 <06f3d9add3a233cea57df42b73686817>
+/usr/lib/dyld
+0x22d2bb000 - 0x22d2bcfff libSystem.B.dylib arm64 <8a05d5f48f0a376abe6bd1caf4fc8138>
+/usr/lib/libSystem.B.dylib 0x22d2bd000 - 0x22d312fff libc++.1.dylib arm64 <6a272068f00d37a984e331ba58e1c3c4>
+/usr/lib/libc++.1.dylib 0x22d313000 - 0x22d325fff libc++abi.dylib arm64 <d4920e50788d3be6bccf8f550bc6d491>
+/usr/lib/libc++abi.dylib 0x22d326000 - 0x22daadfff libobjc.A.dylib arm64 <1167a03d9f853f34a96fd96818ad77b5>
+8607.3.9
+ARM-64
+2019-08-30
+2019-08-30
+iPhone OS
+5.70.01 104
+Unspecified
+launchd [1]
 
-  private GaxGrpcProperties() {}
-
-  /** Returns the current version of gRPC */
-  public static String getGrpcVersion() {
-    return GRPC_VERSION;
-  }
-
-  public static String getGrpcTokenName() {
-    return "grpc";
-  }
-
-  public static String getGaxGrpcVersion() {
-    return GAX_GRPC_VERSION;
-  }
-
-  /** Returns default api client header pattern (to facilitate testing) */
-  public static Pattern getDefaultApiClientHeaderPattern() {
-    return DEFAULT_API_CLIENT_HEADER_PATTERN;
-  }
-}
+ {"app_name":"com.apple.WebKit.WebCo 08-30 23:22:32.82 -0400","app_version":"8607","slice_ 948c-3e2e-aa13- 86215d870dbb","build_version":"8607
+OS 12.4 (16G77)","incident_id":"71E4DC61- 3548-49DB-A9A1- D55B497486F6","name":"com.apple.Web
+Incident Identifier: 71E4DC61- 3548-49DB-A9A1-D55B497486F6 CrashReporter Key: 7b2444f26ec195445eda0f1315f0f7520f2
+Hardware Model: iPhone8,1 Process: com.apple.WebKit.WebContent [2245]
+Path: /System/Library/Frameworks/WebKit.f
+Identifier: com.apple.WebKit.WebContent
+Version:
+(8607)
+Code Type:
+(Native)
+Role:
+Parent Process:
+Coalition: com.apple.mobilesafari [777]
+Date/Time: 23:22:32.5219 -0400 Launch Time: 22:16:13.0119 -0400 OS Version:
+12.4 (16G77) Baseband Version: Report Version:
+Exception Type: EXC_CRASH (SIGKILL)
+Exception Codes: 0x0000000000000000, 0x0000000000000000
+Exception Note: EXC_CORPSE_NOTIFY
+Termination Reason: Namespace ASSERTIOND, Code 0xdead10cc Triggered by Thread: 0
+Thread 0 name: Dispatch queue: com.apple.main-thread
+Thread 0 Crashed:
+0 libsystem_kernel.dylib 0x000000022dcf093c 0x22dccc000 + 149820
+1 libdispatch.dylib 0x000000022db4fbf4 0x22db31000 + 125940
+2 libdispatch.dylib 0x000000022db4f118 0x22db31000 + 123160
+3 JavaScriptCore 0x0000000235364584 0x2352e9000 + 505220
+4 WebKit
+0x000000023d66f988 0x23d644000 + 178568
+5 WebKit
+0x000000023d953a38 0x23d644000 + 3209784
+6 WebKit
+0x000000023d9539a8 0x23d644000 + 3209640
+7 WebKit
+0x000000023d953b3c 0x23d644000 + 3210044
+8 WebKit
+0x000000023d953b94 0x23d644000 + 3210132
+9 WebKit
+0x000000023d953c34 0x23d644000 + 3210292
+10 WebKit
+0x000000023d97b2ec 0x23d644000 + 3371756
+11 WebKit
+0x000000023d9f2c6c 0x23d644000 + 3861612
+12 WebKit
+0x000000023d8d99f0 0x23d644000 + 2710000
+13 WebKit
+0x000000023d9521c8 0x23d644000 + 3203528
+14 WebKit
+0x000000023d947010 0x23d644000 + 3158032
+15 WebKit
+0x000000023d946f5c 0x23d644000 + 3157852
+16 WebKit
+0x000000023d9f4930 0x23d644000 + 3868976
+17 WebKit
+0x000000023d67de38 0x23d644000 + 237112
+18 WebKit
+0x000000023d947260 0x23d644000 + 3158624
+19 WebKit
+0x000000023d66e9a8 0x23d644000 + 174504
+20 WebKit
+0x000000023d672004 0x23d644000 + 188420
+21 JavaScriptCore 0x0000000235324688 0x2352e9000 + 243336
+22 JavaScriptCore 0x0000000235324908 0x2352e9000 + 243976
+23 CoreFoundation 0x000000022e0e4728 0x22e03a000 + 698152
+24 CoreFoundation 0x000000022e0e46a8 0x22e03a000 + 698024
+25 CoreFoundation 0x000000022e0e3f90 0x22e03a000 + 696208
+26 CoreFoundation 0x000000022e0deecc 0x22e03a000 + 675532
+27 CoreFoundation 0x000000022e0de7c0 0x22e03a000 + 673728
+28 Foundation 0x000000022eaaceac 0x22eaa5000 + 32428
+29 Foundation 0x000000022eae836c 0x22eaa5000 + 275308
+30 libxpc.dylib 0x000000022ddb1a44 0x22dd9e000 + 80452
+31 libxpc.dylib 0x000000022ddb43a4 0x22dd9e000 + 91044
+32 com.apple.WebKit.WebContent 0x000000010477b60c 0x104778000 + 13836
+33 com.apple.WebKit.WebContent 0x000000010477b7b8 0x104778000 + 14264
+34 libdyld.dylib 0x000000022dba28e0 0x22dba1000 + 6368
+Thread 1 name: JavaScriptCore bmalloc scavenger
+Thread 1:
+0 libsystem_kernel.dylib 0x000000022dceeee4 0x22dccc000 + 143076
+1 libsystem_pthread.dylib 0x000000022dd69cf8 0x22dd66000 + 15608
+2 libc++.1.dylib 0x000000022d2c5128 0x22d2bd000 + 33064
+3 JavaScriptCore 0x0000000235378304 0x2352e9000 + 586500
+4 JavaScriptCore 0x00000002353781b4 0x2352e9000 + 586164
+5 JavaScriptCore 0x0000000235376e4c 0x2352e9000 + 581196
+6 JavaScriptCore 0x000000023537654c 0x2352e9000 + 578892
+7 JavaScriptCore 0x0000000235377f8c 0x2352e9000 + 585612
+8 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+9 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+10 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 2 name: DFG Worklist Worker Thread
+Thread 2:
+0 libsystem_kernel.dylib 0x000000022dceeee4 0x22dccc000 + 143076
+1 libsystem_pthread.dylib 0x000000022dd69cf8 0x22dd66000 + 15608
+2 JavaScriptCore 0x00000002353398cc 0x2352e9000 + 329932
+3 JavaScriptCore 0x0000000235320514 0x2352e9000 + 226580
+4 JavaScriptCore 0x00000002352f4358 0x2352e9000 + 45912
+5 JavaScriptCore 0x00000002352f46e8 0x2352e9000 + 46824
+6 JavaScriptCore 0x0000000235337b30 0x2352e9000 + 322352
+7 JavaScriptCore 0x000000023533903c 0x2352e9000 + 327740
+8 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+9 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+10 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 3:
+0 libsystem_pthread.dylib 0x000000022dd74cd0 0x22dd66000 + 60624
+Thread 4:
+0 libsystem_pthread.dylib 0x000000022dd74cd0 0x22dd66000 + 60624
+Thread 5 name: Dispatch queue: com.apple.IPC.ReceiveQueue Thread 5:
+0 libsystem_kernel.dylib 0x000000022dce40f4 0x22dccc000 + 98548
+1 libsystem_kernel.dylib 0x000000022dce35a0 0x22dccc000 + 95648
+2 WebKit
+0x000000023d6dbcb8 0x23d644000 + 621752
+3 WebKit
+0x000000023d6dc050 0x23d644000 + 622672
+4 WebKit
+0x000000023d671954 0x23d644000 + 186708
+5 libdispatch.dylib 0x000000022db90a38 0x22db31000 + 391736
+6 libdispatch.dylib 0x000000022db917d4 0x22db31000 + 395220
+7 libdispatch.dylib 0x000000022db3a324 0x22db31000 + 37668
+8 libdispatch.dylib 0x000000022db3ae40 0x22db31000 + 40512
+9 libdispatch.dylib 0x000000022db434ac 0x22db31000 + 74924
+10 libsystem_pthread.dylib 0x000000022dd72114 0x22dd66000 + 49428
+11 libsystem_pthread.dylib 0x000000022dd74cd4 0x22dd66000 + 60628
+Thread 6 name: Heap Helper Thread
+Thread 6:
+0 libsystem_kernel.dylib 0x000000022dceeee4 0x22dccc000 + 143076
+1 libsystem_pthread.dylib 0x000000022dd69cf8 0x22dd66000 + 15608
+2 JavaScriptCore 0x00000002353398cc 0x2352e9000 + 329932
+3 JavaScriptCore 0x0000000235320514 0x2352e9000 + 226580
+4 JavaScriptCore 0x00000002352f4358 0x2352e9000 + 45912
+5 JavaScriptCore 0x00000002352f46e8 0x2352e9000 + 46824
+6 JavaScriptCore 0x0000000235337b30 0x2352e9000 + 322352
+7 JavaScriptCore 0x000000023533903c 0x2352e9000 + 327740
+8 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+9 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+10 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 7 name: WebCore: Database Thread 7:
+0 libsystem_kernel.dylib 0x000000022dcee1e4 0x22dccc000 + 139748
+1 libsystem_kernel.dylib 0x000000022dce79a8 0x22dccc000 + 113064
+2 libsqlite3.dylib 0x000000022e5b639c 0x22e548000 + 451484
+3 libsqlite3.dylib 0x000000022e5ce6cc 0x22e548000 + 550604
+4 libsqlite3.dylib 0x000000022e5be42c 0x22e548000 + 484396
+5 libsqlite3.dylib 0x000000022e5be150 0x22e548000 + 483664
+6 libsqlite3.dylib 0x000000022e5bdacc 0x22e548000 + 481996
+7 libsqlite3.dylib 0x000000022e5e2ae8 0x22e548000 + 633576
+8 libsqlite3.dylib 0x000000022e5eb6c0 0x22e548000 + 669376
+9 WebCore
+0x0000000237d18c7c 0x236a20000 + 19893372
+10 WebCore
+0x00000002373a1fd0 0x236a20000 + 9969616
+11 WebCore
+0x00000002373a1f3c 0x236a20000 + 9969468
+12 WebCore
+0x00000002373aaf68 0x236a20000 + 10006376
+13 JavaScriptCore 0x0000000235337b30 0x2352e9000 + 322352
+14 JavaScriptCore 0x000000023533903c 0x2352e9000 + 327740
+15 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+16 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+17 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 8:
+0 libsystem_kernel.dylib 0x000000022dce4148 0x22dccc000 + 98632
+1 libdispatch.dylib 0x000000022db33888 0x22db31000 + 10376
+2 libdispatch.dylib 0x000000022db341dc 0x22db31000 + 12764
+3 libdispatch.dylib 0x000000022db41df8 0x22db31000 + 69112
+4 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+5 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+6 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 9:
+0 libsystem_kernel.dylib 0x000000022dce4148 0x22dccc000 + 98632
+1 libdispatch.dylib 0x000000022db33888 0x22db31000 + 10376
+2 libdispatch.dylib 0x000000022db341dc 0x22db31000 + 12764
+3 libdispatch.dylib 0x000000022db41df8 0x22db31000 + 69112
+4 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+5 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+6 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 10:
+0 libsystem_pthread.dylib 0x000000022dd74cd0 0x22dd66000 + 60624
+Thread 11:
+0 libsystem_kernel.dylib 0x000000022dce4148 0x22dccc000 + 98632
+1 libdispatch.dylib 0x000000022db33888 0x22db31000 + 10376
+2 libdispatch.dylib 0x000000022db341dc 0x22db31000 + 12764
+3 libdispatch.dylib 0x000000022db41df8 0x22db31000 + 69112
+4 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+5 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+6 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 12 name: JSC Heap Collector Thread
+Thread 12:
+0 libsystem_kernel.dylib 0x000000022dceeee4 0x22dccc000 + 143076
+1 libsystem_pthread.dylib 0x000000022dd69cf8 0x22dd66000 + 15608
+2 JavaScriptCore 0x00000002353398cc 0x2352e9000 + 329932
+3 JavaScriptCore 0x0000000235320514 0x2352e9000 + 226580
+4 JavaScriptCore 0x00000002352f4358 0x2352e9000 + 45912
+5 JavaScriptCore 0x00000002352f46e8 0x2352e9000 + 46824
+6 JavaScriptCore 0x0000000235337b30 0x2352e9000 + 322352
+7 JavaScriptCore 0x000000023533903c 0x2352e9000 + 327740
+8 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+9 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+10 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 13 name: JIT Worklist Helper Thread
+Thread 13:
+0 libsystem_kernel.dylib 0x000000022dceeee4 0x22dccc000 + 143076
+1 libsystem_pthread.dylib 0x000000022dd69cf8 0x22dd66000 + 15608
+2 JavaScriptCore 0x00000002353398cc 0x2352e9000 + 329932
+3 JavaScriptCore 0x0000000235320514 0x2352e9000 + 226580
+4 JavaScriptCore 0x00000002352f4358 0x2352e9000 + 45912
+5 JavaScriptCore 0x00000002352f46e8 0x2352e9000 + 46824
+6 JavaScriptCore 0x0000000235337b30 0x2352e9000 + 322352
+7 JavaScriptCore 0x000000023533903c 0x2352e9000 + 327740
+8 libsystem_pthread.dylib 0x000000022dd712c0 0x22dd66000 + 45760
+9 libsystem_pthread.dylib 0x000000022dd71220 0x22dd66000 + 45600
+10 libsystem_pthread.dylib 0x000000022dd74cdc 0x22dd66000 + 60636
+Thread 0 crashed with ARM Thread State (64-bit):
+    x0: 0x0000000000000000   x1:
+0x0000000000000000   x2:
+0x0000000000000001   x3:
+0x000000016b686598
+    x4: 0x0000000000000001   x5:
+0x0000000000000000   x6:
+0x0000000000000000   x7:
+0x0000000000000403
+    x8: 0x0000000000000400   x9:
+0x00000002678a0a40  x10:
+0x0000000000000400  x11:
+0x0000003700000001
+   x12: 0x0000000000000005  x13:
+0x0000003700000001  x14:
+0x0000000000000100  x15:
+0x0000000000000100
+   x16: 0x0000000000000177  x17:
+0x000000022db4f020  x18:
+0x0000000000000000  x19:
+0x0000000000000403
+   x20: 0x0000000000000000  x21:
+0x0000000000000000  x22:
+0x0000000000000001  x23:
+0x000000016b686598
+   x24: 0x0000000000000001  x25:
+0x000000016b686598  x26:
+0x0000000155e0e700  x27:
+0x00000002678a0a40
+   x28: 0x0000000000020400   fp:
+0x000000016b686580   lr:
+0x000000022db4fbf4
+    sp: 0x000000016b686520   pc:
+0x000000022dcf093c cpsr:
+0x00000000
+Binary Images:
+0x104778000 - 0x10477bfff com.apple.WebKit.WebContent arm64 <ba35778e948c3e2eaa1386215d870dbb>
+/System/Library/Frameworks/WebKit.f
+0x10487c000 - 0x104887fff Safari arm64 <97ca6c98ccaf3aeda369f2f945e439b5>
+/Applications/MobileSafari.app/Plug
+0x1049c8000 - 0x104a1ffff dyld arm64 <06f3d9add3a233cea57df42b73686817>
+/usr/lib/dyld
+0x22d2bb000 - 0x22d2bcfff libSystem.B.dylib arm64 <8a05d5f48f0a376abe6bd1caf4fc8138>
+/usr/lib/libSystem.B.dylib 0x22d2bd000 - 0x22d312fff libc++.1.dylib arm64 <6a272068f00d37a984e331ba58e1c3c4>
+/usr/lib/libc++.1.dylib 0x22d313000 - 0x22d325fff libc++abi.dylib arm64 <d4920e50788d3be6bccf8f550bc6d491>
+/usr/lib/libc++abi.dylib 0x22d326000 - 0x22daadfff libobjc.A.dylib arm64 <1167a03d9f853f34a96fd96818ad77b5>
+8607.3.9
+ARM-64
+2019-08-30
+2019-08-30
+iPhone OS
+5.70.01 104
+Unspecified
+launchd [1]
